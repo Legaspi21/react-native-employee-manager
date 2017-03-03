@@ -40,5 +40,5 @@ const loginUserSuccess = (dispatch, user) => {
 };
 
 const loginUserFail = (dispatch) => {
-	dispatch({ LOGIN_USER_FAIL });
+	dispatch({ type: LOGIN_USER_FAIL });
 };
