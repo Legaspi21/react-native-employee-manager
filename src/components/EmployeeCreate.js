@@ -33,5 +33,5 @@ const mapStateToProps = (state) => {
 
 export default connect(mapStateToProps, { 
 	employeeUpdate, 
-	employeeCreate 
+	employeeCreate
 })(EmployeeCreate);
